@@ -46,7 +46,7 @@ public class CameraActivity extends AppCompatActivity {
 
     private int REQUEST_CODE_PERMISSION = 101;
     private final String[] REQUIRED_PERMISSIONS = new String[] {"android.permission.CAMERA"};
-    private final String[] MODEL_CLASSES = new String[] {"7호선 4차분", "7호선 1차분", "7호선 2차분", "7호선 5차분", "7호선 3차분"};
+    private final String[] MODEL_CLASSES = new String[] {"7호선 4차분", "7호선 5차분", "7호선 2차분", "7호선 1차분", "7호선 3차분"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,7 +58,7 @@ public class CameraActivity extends AppCompatActivity {
         if (!checkPermissions()) {
             ActivityCompat.requestPermissions(this, REQUIRED_PERMISSIONS, REQUEST_CODE_PERMISSION);
         }
-        loadTorchModule("vehicle_1.pt");
+        loadTorchModule("vehicle_lite_1.pt");
         cameraProviderFuture = ProcessCameraProvider.getInstance(this);
         cameraProviderFuture.addListener(() -> {
             try {
