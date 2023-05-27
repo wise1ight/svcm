@@ -46,7 +46,7 @@ public class CameraActivity extends AppCompatActivity {
 
     private int REQUEST_CODE_PERMISSION = 101;
     private final String[] REQUIRED_PERMISSIONS = new String[] {"android.permission.CAMERA"};
-    private final String[] MODEL_CLASSES = new String[] {"7호선 4차분", "7호선 5차분", "7호선 2차분", "7호선 1차분", "7호선 3차분"};
+    private final String[] MODEL_CLASSES = new String[] {"7호선 5차분", "7호선 2차분", "7호선 3차분", "7호선 4차분", "7호선 1차분"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
