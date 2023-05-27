@@ -26,6 +26,16 @@ CUDA 버전이 다르거나 CPU로 학습을 할 경우에는 PyTorch 설치 명
 
 또한 안드로이드 앱 빌드를 위해 [Android Studio](https://developer.android.com/studio)가 필요합니다.
 
+## [데이터셋](./datasets)
+수도권 전철 7호선에 운행중인 열차 5종에 대한 전두부, 측면부 사진 총 128장으로 구성되어 있으며 각 차종별 이미지 수는 다음과 같습니다.
+| 순번 | 대표사진                                      | 종류 | 이미지 수 |
+|------|----------------------------------------------|------|----------|
+| 1    | ![1차분대표사진](./datasets/7000First_1.jpg)  | 1차분 | 7       |
+| 2    | ![2차분대표사진](./datasets/7000Second_1.jpg) | 2차분 | 30      |
+| 3    | ![3차분대표사진](./datasets/7000Third_1.jpg)  | 3차분 | 31      |
+| 4    | ![4차분대표사진](./datasets/7000Fourth_1.jpg) | 4차분 | 30      |
+| 5    | ![5차분대표사진](./datasets/7000Fifth_1.jpg)  | 5차분 | 30      |
+
 ## demo
 https://github.com/wise1ight/svcm/assets/59006393/caac1afc-d213-4dcd-bc03-dd12b474daa5
 
