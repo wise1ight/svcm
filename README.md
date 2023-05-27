@@ -36,9 +36,16 @@ CUDA 버전이 다르거나 CPU로 학습을 할 경우에는 PyTorch 설치 명
 | 4    | ![4차분대표사진](./datasets/7000Fourth_1.jpg) | 4차분 | 30      |
 | 5    | ![5차분대표사진](./datasets/7000Fifth_1.jpg)  | 5차분 | 30      |
 
-## demo
-https://github.com/wise1ight/svcm/assets/59006393/caac1afc-d213-4dcd-bc03-dd12b474daa5
+## 샘플 앱
+해당 모델의 사용 예시를 보여주기 위해 샘플 앱을 제작하였습니다.  
+샘플 앱에서는 카메라로 플랫폼에 있는 열차를 비추면 차종별 특성을 승객에게 안내해줍니다.  
+열차 차종을 앱을 통해 구분하여 열차 이용에 장애가 될 수 있는 요인을 확인할 수 있는 배리어 프리 앱의 예시입니다.
 
+### 데모 영상
+7호선의 종점인 도봉산역에서 촬영하였습니다.
+#### 2차분
+https://github.com/wise1ight/svcm/assets/59006393/caac1afc-d213-4dcd-bc03-dd12b474daa5
+#### 4차분
 https://github.com/wise1ight/svcm/assets/59006393/b576b632-ac52-4a9c-a0d2-40f4f3e98b53
 
 ## 참고자료
