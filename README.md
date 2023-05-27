@@ -56,9 +56,14 @@ https://github.com/wise1ight/svcm/assets/59006393/b576b632-ac52-4a9c-a0d2-40f4f3
 3. 앱 기능 개선
 
 ## 참고자료
-[Tensorflow를 이용한 애완동물 영상 세부 분류](https://koreascience.kr/article/CFKO202023758834506.pdf)  
-[Oxford-IIIT Pets-Pytorch](https://github.com/Skuldur/Oxford-IIIT-Pets-Pytorch)  
-[PyTorch for Android - Image Classification App](https://www.youtube.com/watch?v=ghxLlsT7ebo)
+* [Tensorflow를 이용한 애완동물 영상 세부 분류](https://koreascience.kr/article/CFKO202023758834506.pdf)  
+열차 종류 분류기를 만드는 것이 고양이의 품종을 구분하는 것과 동일할 것으로 보고 해당 자료를 확인하였습니다.
+* [Oxford-IIIT Pets-Pytorch](https://github.com/Skuldur/Oxford-IIIT-Pets-Pytorch)  
+위의 글에서 소개되어 있는 'Oxford-IIIT pet dataset' 데이터셋으로 PyTorch 환경에서 학습을 하는 코드를 참고하였습니다.
+* [PyTorch for Android - Image Classification App](https://www.youtube.com/watch?v=ghxLlsT7ebo)  
+PyTorch에서 학습한 모델 파일로 안드로이드에서 이미지 분류 앱을 만드는 유튜브 강의입니다.
+* [PYTORCH 모바일 성능 레시피](https://tutorials.pytorch.kr/recipes/mobile_perf.html)  
+PyTorch에서 모바일 환경에 사용할 수 있는 모델 파일 형식으로 추출하는 방법을 확인하였습니다.
 
 ## 라이선스
 이 프로젝트는 MIT 라이선스를 따릅니다. 자세한 내용은 [LICENSE](./LICENSE) 파일을 확인하세요.
