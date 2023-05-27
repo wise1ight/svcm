@@ -46,7 +46,28 @@ public class CameraActivity extends AppCompatActivity {
 
     private int REQUEST_CODE_PERMISSION = 101;
     private final String[] REQUIRED_PERMISSIONS = new String[] {"android.permission.CAMERA"};
-    private final String[] MODEL_CLASSES = new String[] {"7호선 5차분", "7호선 2차분", "7호선 3차분", "7호선 4차분", "7호선 1차분"};
+    private final String[] MODEL_CLASSES = new String[] {
+            "7호선 5차분",
+            "7호선 2차분",
+            "7호선 3차분",
+            "7호선 4차분",
+            "7호선 1차분"};
+    private final String[] CLASS_CHARACTERS = new String[] {
+            "객실내 선반 X\n" +
+                    "통로문 X\n" +
+                    "6인석",
+            "객실내 선반 O\n" +
+                    "통로문 O\n" +
+                    "7인석",
+            "객실내 선반 X\n" +
+                    "통로문 X\n" +
+                    "7인석",
+            "객실내 선반 X\n" +
+                    "통로문 X\n" +
+                    "7인석",
+            "객실내 선반 O\n" +
+                    "통로문 O\n" +
+                    "7인석",};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -135,10 +156,14 @@ public class CameraActivity extends AppCompatActivity {
         }
 
         String classResult = MODEL_CLASSES[maxScoreIdx];
+        String description = CLASS_CHARACTERS[maxScoreIdx];
+        String textContents = classResult +
+                "\n" +
+                description;
         Log.v("Torch", "Detected - " + classResult);
 
         runOnUiThread(() -> {
-            textView.setText(classResult);
+            textView.setText(textContents);
         });
     }
 }
