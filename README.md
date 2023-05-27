@@ -59,3 +59,6 @@ https://github.com/wise1ight/svcm/assets/59006393/b576b632-ac52-4a9c-a0d2-40f4f3
 [Tensorflow를 이용한 애완동물 영상 세부 분류](https://koreascience.kr/article/CFKO202023758834506.pdf)  
 [Oxford-IIIT Pets-Pytorch](https://github.com/Skuldur/Oxford-IIIT-Pets-Pytorch)  
 [PyTorch for Android - Image Classification App](https://www.youtube.com/watch?v=ghxLlsT7ebo)
+
+## 라이선스
+이 프로젝트는 MIT 라이선스를 따릅니다. 자세한 내용은 [LICENSE](./LICENSE) 파일을 확인하세요.
