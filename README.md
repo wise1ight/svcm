@@ -50,6 +50,11 @@ https://github.com/wise1ight/svcm/assets/59006393/caac1afc-d213-4dcd-bc03-dd12b4
 #### 5차분
 https://github.com/wise1ight/svcm/assets/59006393/b576b632-ac52-4a9c-a0d2-40f4f3e98b53
 
+## 앞으로 해야 할 일
+1. 다양한 모델을 사용해 보면서 성능 비교
+2. 데이터셋 추가
+3. 앱 기능 개선
+
 ## 참고자료
 [Tensorflow를 이용한 애완동물 영상 세부 분류](https://koreascience.kr/article/CFKO202023758834506.pdf)  
 [Oxford-IIIT Pets-Pytorch](https://github.com/Skuldur/Oxford-IIIT-Pets-Pytorch)  
