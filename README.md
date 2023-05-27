@@ -47,7 +47,7 @@ CUDA 버전이 다르거나 CPU로 학습을 할 경우에는 PyTorch 설치 명
 7호선의 종점인 도봉산역에서 촬영하였습니다.
 #### 2차분
 https://github.com/wise1ight/svcm/assets/59006393/caac1afc-d213-4dcd-bc03-dd12b474daa5
-#### 4차분
+#### 5차분
 https://github.com/wise1ight/svcm/assets/59006393/b576b632-ac52-4a9c-a0d2-40f4f3e98b53
 
 ## 참고자료
